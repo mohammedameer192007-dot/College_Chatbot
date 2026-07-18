@@ -81,16 +81,16 @@ if question:
     elif "department" in question.lower() or "departments" in question.lower() or "available departments" in question.lower():
         st.write("Our college has the following departments: Computer Science and Engineering, Electronics and Communication Engineering, Electrical and Electronics Engineering, Mechanical Engineering, and Artificial Intelligence & Data Science.")
 
-    elif "AI & DS department" in question.lower() or "artificial intelligence data science department" in question.lower():
+    elif "ai&ds department" in question.lower() or "artificial intelligence data science department" in question.lower():
         st.write("This department is headed by Dr. Arulmozhi, The AI & DS department focuses on the study and application of artificial intelligence and data science techniques, including machine learning, deep learning, natural language processing, and data analytics.")
 
-    elif "CSE department" in question.lower() or "computer science engineering department" in question.lower():
+    elif "cse department" in question.lower() or "computer science engineering department" in question.lower():
         st.write("This department is headed by Dr. Afiya , The CSE department focuses on the study of computer systems, algorithms, programming languages, software engineering, and computer networks.")
 
-    elif "ECE department" in question.lower() or "electronics communication engineering department" in question.lower():
+    elif "ece department" in question.lower() or "electronics communication engineering department" in question.lower():
         st.write("This department is headed by Dr. Sadhicbasa, The ECE department focuses on the study of electronic devices, circuits, communication systems, signal processing, and embedded systems.")
 
-    elif "EEE department" in question.lower() or "electrical electronics engineering department" in question.lower():
+    elif "eee department" in question.lower() or "electrical electronics engineering department" in question.lower():
         st.write("This department is headed by Dr. Vimal, The EEE department focuses on the study of electrical power systems, control systems, electrical machines, power electronics, and renewable energy sources.")
 
     elif "mechanical department" in question.lower() or "mechanical engineering department" in question.lower():
