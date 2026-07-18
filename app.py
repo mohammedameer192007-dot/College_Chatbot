@@ -33,11 +33,8 @@ if question:
     if "fee" in question.lower() or "fees" in question.lower():
         st.write("College fees is ₹70,000 per year.")
 
-    elif "course" in question.lower() or "courses" in question.lower() or "ug courses" in question.lower() or "available ug courses" in question.lower():
-        st.write("Available courses: AI & DS, CSE, ECE, EEE, Mechanical.")
-
-    elif "pg courses" in question.lower() or "post graduate courses" in question.lower():
-        st.write("Available PG courses: M.E in Computer Science and Engineering, M.E in Industrial Safety Engineering, M.B.A.")
+    elif "course" in question.lower() or "courses" in question.lower() or "ug courses" in question.lower() or "available courses" in question.lower() or "pg courses" in question.lower():
+        st.write("Available courses: AI & DS, CSE, ECE, EEE, Mechanical, Available PG courses: M.E in Computer Science and Engineering, M.E in Industrial Safety Engineering, M.B.A.")
 
     elif "principal" in question.lower() or "principal name" in question.lower() or "who is the principal" in question.lower() or "name of principal" in question.lower():
         st.write("Our Principal is Dr. A.M.J. Md Zubair Rahman.")
