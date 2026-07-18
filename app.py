@@ -48,7 +48,10 @@ if question:
     elif "location" in question.lower() or "where" in question.lower() or "address" in question.lower():
         st.write("Our college is located in Karundevan Palayam (Erode Modakurichi Main Road).")
 
-    elif "timing" in question.lower() or "time" in question.lower() or "working hours" in question.lower():
+    elif "office timing" in question.lower() or "office hours" in question.lower() or "working hours" in question.lower():
+        st.write("Our college office timing is 9:00 AM to 4:00 PM.")
+
+    elif "timing" in question.lower() or "time" in question.lower() or "college hours" in question.lower() or "college timing" in question.lower():
         st.write("Our college timing is 9:00 AM to 4:00 PM.")
 
     elif "contact" in question.lower() or "phone" in question.lower() or "mobile" in question.lower() or "number" in question.lower():
@@ -70,15 +73,24 @@ if question:
         st.write("Our college offers scholarships and financial aid to eligible students based on merit and need.")
   
     elif "college website" in question.lower() or "website" in question.lower() or "official website" in question.lower():
-        st.write("Our college website is https://alameen.ac.in/contact-us/")
+        st.write("Official Website: https://alameen.ac.in/")
   
     elif "college email" in question.lower() or "email" in question.lower() or "official email" in question.lower():
         st.write("You can contact the college via email at alameenengg@yahoo.com.")
-  
-    elif "office timing" in question.lower() or "office hours" in question.lower() or "working hours" in question.lower():
-        st.write("Our college office timing is 9:00 AM to 4:00 PM.")
 
-    elif "department" in question.lower() or "departments" in question.lower() or "available departments" in question.lower():
+    elif ("department" in question.lower() or
+      "departments" in question.lower() or
+      "available departments" in question.lower() or
+      "ai&ds" in question.lower() or
+      "ai & ds" in question.lower() or
+      "artificial intelligence" in question.lower() or
+      "cse" in question.lower() or
+      "computer science" in question.lower() or
+      "ece" in question.lower() or
+      "electronics" in question.lower() or
+      "eee" in question.lower() or
+      "electrical" in question.lower() or
+      "mechanical" in question.lower()):
         st.write("""
         📚 Departments
 
@@ -102,20 +114,20 @@ if question:
         HOD: Dr. Santhosh
         Focus: Thermodynamics, Fluid Mechanics, Manufacturing Processes and Robotics.
         """)
-        
+
     elif "nba accreditation" in question.lower() or "nba" in question.lower() or "accreditation" in question.lower():
         st.write("Our college is accredited by the National Board of Accreditation (NBA) for its various programs, ensuring quality education and continuous improvement for ECE & EEE Departments.")
 
     elif "naac grade " in question.lower() or "naac" in question.lower() or "grade" in question.lower():
         st.write("Our college has been awarded an 'A' grade by the National Assessment and Accreditation Council (NAAC), reflecting our commitment to academic excellence and quality education.")
 
-    elif "autonomous status" in question.lower() or "automous or not " in question.lower() or "autonomous" in question.lower():
+    elif "autonomous status" in question.lower() or "autonomous or not" in question.lower() or "autonomous" in question.lower():
         st.write("Yes, Al Ameen Engineering College is an Autonomous Institution ")
 
-    elif "affiliated university" in question.lower() or "university" in quetion.lower()  or "affiliation" in question.lower():
-        st.write("Al Ameeen College is an Autonomous Instition affilicated with Anna University,Chennai ")  
+    elif "affiliated university" in question.lower() or "university" in question.lower()  or "affiliation" in question.lower():
+        st.write("Al Ameen Engineering College is an Autonomous Institution affiliated with Anna University, Chennai.") 
 
-    elif ("admission apply" in question.lower() or"admission" in question.lower() or "eligibility" in question.lower() or
+    elif ("apply" in question.lower() or "admission" in question.lower() or "eligibility" in question.lower() or
       "documents" in question.lower() or
       "admission process" in question.lower() or
       "online admission" in question.lower() or
