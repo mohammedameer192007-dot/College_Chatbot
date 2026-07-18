@@ -162,7 +162,7 @@ if question:
         • Parking: A spacious parking area is available for students and staff.
         • CCTV: CCTV cameras are installed throughout the college campus for safety and security.
         """)
-        +
+        
     else:
         st.write("Sorry, I don't know the answer.")
 
