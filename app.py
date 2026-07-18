@@ -79,23 +79,30 @@ if question:
         st.write("Our college office timing is 9:00 AM to 4:00 PM.")
 
     elif "department" in question.lower() or "departments" in question.lower() or "available departments" in question.lower():
-        st.write("Our college has the following departments: Computer Science and Engineering, Electronics and Communication Engineering, Electrical and Electronics Engineering, Mechanical Engineering, and Artificial Intelligence & Data Science.")
+        st.write("""
+        📚 Departments
 
-    elif "ai&ds department" in question.lower() or "artificial intelligence data science department" in question.lower():
-        st.write("This department is headed by Dr. Arulmozhi, The AI & DS department focuses on the study and application of artificial intelligence and data science techniques, including machine learning, deep learning, natural language processing, and data analytics.")
+        • Artificial Intelligence & Data Science (AI & DS)
+        HOD: Dr. Arulmozhi
+        Focus: Artificial Intelligence, Machine Learning, Deep Learning, NLP and Data Analytics.
 
-    elif "cse department" in question.lower() or "computer science engineering department" in question.lower():
-        st.write("This department is headed by Dr. Afiya , The CSE department focuses on the study of computer systems, algorithms, programming languages, software engineering, and computer networks.")
+        • Computer Science and Engineering (CSE)
+        HOD: Dr. Afiya
+        Focus: Programming, Software Engineering, Computer Networks and Algorithms.
 
-    elif "ece department" in question.lower() or "electronics communication engineering department" in question.lower():
-        st.write("This department is headed by Dr. Sadhicbasa, The ECE department focuses on the study of electronic devices, circuits, communication systems, signal processing, and embedded systems.")
+        • Electronics and Communication Engineering (ECE)
+        HOD: Dr. Sadhicbasa
+        Focus: Electronic Devices, Communication Systems, Signal Processing and Embedded Systems.
 
-    elif "eee department" in question.lower() or "electrical electronics engineering department" in question.lower():
-        st.write("This department is headed by Dr. Vimal, The EEE department focuses on the study of electrical power systems, control systems, electrical machines, power electronics, and renewable energy sources.")
+        • Electrical and Electronics Engineering (EEE)
+        HOD: Dr. Vimal
+        Focus: Power Systems, Electrical Machines, Power Electronics and Renewable Energy.
 
-    elif "mechanical department" in question.lower() or "mechanical engineering department" in question.lower():
-        st.write("This department is headed by Dr. Santhosh, The Mechanical department focuses on the study of mechanical systems, thermodynamics, fluid mechanics, manufacturing processes, and robotics.")
-
+        • Mechanical Engineering
+        HOD: Dr. Santhosh
+        Focus: Thermodynamics, Fluid Mechanics, Manufacturing Processes and Robotics.
+        """)
+        
     elif "nba accreditation" in question.lower() or "nba" in question.lower() or "accreditation" in question.lower():
         st.write("Our college is accredited by the National Board of Accreditation (NBA) for its various programs, ensuring quality education and continuous improvement for ECE & EEE Departments.")
 
